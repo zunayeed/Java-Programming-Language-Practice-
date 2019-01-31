@@ -14,22 +14,20 @@ public class PowerModCreate {
 		Scanner in  = new Scanner(System.in) ; 
 		
 		System.out.println(" Please enter  3 numbers a, b, c : ");
-		  int a = in.nextInt(); 
-		  System.out.println("You entered integer:a  "+ a ); 
+		  int base = in.nextInt(); 
+		  System.out.println("You entered integer:a  "+ base ); 
 		  
-		  int b = in.nextInt(); 
-		  System.out.println("You entered integer:b  " + b ); 
+		  int exponent = in.nextInt(); 
+		  System.out.println("You entered integer:b  " + exponent ); 
 		  
-		  int c = in.nextInt(); 
-		  System.out.println("You entered integer:c  " + c ); 
-		  
-		  int counter ; 
-		  int power_res =1; 
-		  for(  counter = 1 ;  counter <= b ; counter++ ) {
-			  power_res = a * counter;
-		  }
-		  
-		  	System.out.println(power_res);
+		  int divisor = in.nextInt(); 
+		  System.out.println("You entered integer:c  " + divisor ); 
+		 /* iteration starts from Zero  */ 
+		  int result = 1 ;
+			for(int i = 0; i< exponent; i++) {
+				result = result * base ; 
+			}
+			System.out.println(result);
 		  
 	}
 
