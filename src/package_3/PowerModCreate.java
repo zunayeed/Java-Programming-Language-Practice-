@@ -13,22 +13,25 @@ public class PowerModCreate {
 		
 		Scanner in  = new Scanner(System.in) ; 
 		
-		System.out.println(" Please enter  3 numbers a, b, c : ");
+		System.out.println("Please enter  3 numbers base , exponent , divisor :");
 		  int base = in.nextInt(); 
-		  System.out.println("You entered integer:a  "+ base ); 
+		  System.out.println("You entered integer: base  "+ base ); 
 		  
 		  int exponent = in.nextInt(); 
-		  System.out.println("You entered integer:b  " + exponent ); 
+		  System.out.println("You entered integer: exponent  " + exponent ); 
 		  
 		  int divisor = in.nextInt(); 
-		  System.out.println("You entered integer:c  " + divisor ); 
+		  System.out.println("You entered integer: divisor " + divisor ); 
 		 /* iteration starts from Zero  */ 
 		  int result = 1 ;
 			for(int i = 0; i< exponent; i++) {
 				result = result * base ; 
 			}
-			System.out.println(result);
+			System.out.println("	Power function is :  "+ result);
 		  
+			int powerMod = result - (result/divisor)*divisor ; 
+			System.out.println("	Power Modulus function is   "+ powerMod);	
+			
 	}
 
 }
