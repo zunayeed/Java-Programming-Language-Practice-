@@ -11,7 +11,7 @@ public class PowerFunction2 {
 		}
 		System.out.println(result);
 		
-		in
+		
 	}
 
 }
