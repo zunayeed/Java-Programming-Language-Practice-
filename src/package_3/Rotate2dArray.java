@@ -4,7 +4,7 @@ public class Rotate2dArray {
 
 	public static void main(String[] args) {
 		int[][] muiltiDimArray = new int[3][3];
-		System.out.println(sizeOff(multiDimArray.toString()));
+		System.out.println(multiDimArray);
 
 	}
 
