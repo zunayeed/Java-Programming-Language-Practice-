@@ -3,14 +3,20 @@ package package_3;
 public class Rotate2dArray {
 
 	public static void main(String[] args) {
-		int[][] mArray = new int[4][2];
-		  for(int i = 0; i <mArray.length; i++) {
+	//	int[][] mArray = new int[4][2];
+		 
+		/*
+		for(int i = 0; i <mArray.length; i++) {
 			  for( int j =0; j < mArray[i].length; j++)
-				  System.out.println(mArray[i][j]+ " ");
-			  
+				  System.out.println(mArray[i][j]+ " ");		  
 		  }
+		*/
+		//  System.out.println(Arrays.deepToString(mArray));
 		
-
+		int[ ] numbers = {2, 3, 5, 7};    
+		for (int print: numbers) {
+		   System.out.println(print); 
+		}
 	}
 
 }
