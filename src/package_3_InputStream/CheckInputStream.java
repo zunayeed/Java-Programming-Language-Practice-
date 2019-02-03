@@ -15,7 +15,7 @@ public class CheckInputStream {
 	         // new input stream created
 	         is = new FileInputStream("C://zunayeed.txt");
 	         
-	         System.out.println("Characters printed:");
+	         System.out.println("Characters printed from the file named zunayeed:");
 	         
 	         // reads till the end of the stream
 	         while((i = is.read())!=-1) {
