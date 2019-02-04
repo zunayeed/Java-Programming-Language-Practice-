@@ -17,7 +17,8 @@ public class Rotate2dArray {
 		for (int print: numbers) {
 		   System.out.println(print); 
 		}
-		
+		/*In 2-dimensional array each element in first loop will be an 1-dimensional array, 
+		 * in second loop each element is a number itself:*/
 		int[][] array2d = {{1, 2, 3}, {4, 5, 6}};
 		for (int[] array : array2d) {
 		    for (int element : array) {
@@ -25,6 +26,7 @@ public class Rotate2dArray {
 		    }
 		    System.out.println();
 		}
+		
 	}
 
 }
