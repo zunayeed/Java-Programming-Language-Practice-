@@ -1,5 +1,4 @@
 package package_3;
-
 public class Airplane {
 static int start = 2 ; 
 final int end ;
