@@ -1,7 +1,7 @@
 package package_3;
 
 public class Attendance {
-	private Boolean[] list = // value omitted
+	private Boolean[] list =  []; // value omitted
 			public int printTodaysCount() {
 			int count=0;
 			for(int i=0; i<10; i++) {
