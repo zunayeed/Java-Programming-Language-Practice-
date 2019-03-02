@@ -4,7 +4,7 @@ public class Street {
 	public static void dancing() throws RuntimeException {
 		try {
 		throw new IllegalArgumentException();
-		} catch (Error) {
+		} catch (Error e) { // variable name e was missing
 		System.out.print("Unable!");
 		}
 		}
