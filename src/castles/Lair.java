@@ -7,7 +7,7 @@ public class Lair {
 		} catch (RuntimeException e) {
 		throw new DragonException(); // r2
 		} finally {
-		throw new RuntimeException("Or maybe this one");
+	//	throw new RuntimeException("Or maybe this one");
 		}
 		}
 		public static void main(String[] moat) throws Exception {
