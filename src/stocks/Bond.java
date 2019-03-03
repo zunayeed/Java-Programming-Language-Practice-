@@ -9,12 +9,13 @@ return true;
 } else if(price>=10) {
 return false;
 }
-return false;
+return true;
 }
-public static void main(String[] cash) {
-new Bond().sell();
-new Bond().sell();
-new Bond().sell();
-System.out.print(price);
+public static void main(String[] args) {
+	new Bond().sell();
+	new Bond().sell();
+	new Bond().sell();
+	System.out.print(Bond.price);
+ 
 }
 }
