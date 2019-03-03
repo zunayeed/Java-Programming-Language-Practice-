@@ -1,5 +1,5 @@
 package package_3;
-
+/*
 public class Attendance {
 	private Boolean[] list =  []; // value omitted
 			public int printTodaysCount() {
@@ -15,3 +15,4 @@ public class Attendance {
 	}
 
 }
+*/
