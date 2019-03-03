@@ -15,7 +15,7 @@ public static void main(String[] args) {
 	new Bond().sell();
 	new Bond().sell();
 	new Bond().sell();
-	System.out.print(Bond.price);
+	System.out.print(price);
  
 }
 }
