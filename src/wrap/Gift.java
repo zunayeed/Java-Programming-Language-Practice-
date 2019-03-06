@@ -1,7 +1,7 @@
 package wrap;
 
 public class Gift {
-private  Object contents;
+private   Object contents;
 protected Object getContents() {
 return contents;
 }
