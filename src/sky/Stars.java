@@ -16,6 +16,7 @@ public class Stars {
 	}
 		public static void main(String[] endless) {
 		//System.out.print(new sky.Stars(2).inThe);
-			System.out.println(calculateDistance(1,2,3,4));
+			Stars s = new Stars();
+			System.out.println(s.calculateDistance(1.1,2.1,3.1,4.1));
 		}
 }
