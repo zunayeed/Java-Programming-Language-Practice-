@@ -1,8 +1,8 @@
 package work;
 
 public class Week {
-	// private static final String monday;
+	// private static final String Monday;
 	String tuesday;
- //  final static wednesday = 3;
+ //  final static Wednesday = 3;
 	final protected int thursday = 4;
 }
