@@ -5,6 +5,6 @@ public class Movie extends Cinema {
 		  super(movie); 
 		  }
 	public static void main(String[] showing) {
-	System.out.print(new Movie("Another Trilogy"));
+	System.out.print(new Movie("Another Trilogy").name);
 	}
 }
