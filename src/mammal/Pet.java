@@ -1,0 +1,5 @@
+package mammal;
+
+interface Pet {
+
+}
