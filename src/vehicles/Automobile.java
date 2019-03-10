@@ -1,5 +1,5 @@
 package vehicles;
 
   class Automobile {
-	  private final String drive() { return "Driving vehicle"; }
+	  public  String drive() { return "Driving vehicle"; }
 }
