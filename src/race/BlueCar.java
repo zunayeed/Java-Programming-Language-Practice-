@@ -6,7 +6,7 @@ public Car(String name) {    // constructors third
 super();
 System.out.print("2");
 }
-{ System.out.print("3"); //instance intializers second }
+{ System.out.print("3"); //instance initializers second }
 }
 
 public class BlueCar extends Car {
