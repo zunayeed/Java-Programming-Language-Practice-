@@ -2,6 +2,7 @@ package city;
 
 public class Road {
 	public static void main(String... in) {
+		/*
 		int intersections = 100;
 		int streets = 200;
 		if (intersections < 150) {
@@ -12,5 +13,15 @@ public class Road {
 		System.out.print("3");
 		else
 		System.out.print("4");
+		*/
+		int x = 10, y = 5;
+		boolean w = true, z = false;
+		System.out.println(x);
+		System.out.println(w);
+		System.out.println(x=w);
+		x = w ? y++ : y--;
+		w = !z;
+		System.out.println((x+y)+" "+(w ? 5 : 10));
+				
 		}
 }
