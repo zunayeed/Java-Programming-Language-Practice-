@@ -7,5 +7,4 @@ public class Transportation {
 		public static void main(String[] answer) {
 		System.out.print(Transportation.travel(500));
 		}
-
 }
