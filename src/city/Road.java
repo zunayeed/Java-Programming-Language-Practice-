@@ -18,7 +18,6 @@ public class Road {
 		boolean w = true, z = false;
 		System.out.println(x);
 		System.out.println(w);
-		System.out.println(x=w);
 		x = w ? y++ : y--;
 		w = !z;
 		System.out.println((x+y)+" "+(w ? 5 : 10));
