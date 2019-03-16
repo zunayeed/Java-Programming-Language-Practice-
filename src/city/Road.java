@@ -1,7 +1,7 @@
 package city;
 
 public class Road {
-	public static void main(String... in) {
+	public static void main(String... incheck) {
 		/*
 		int intersections = 100;
 		int streets = 200;
@@ -21,6 +21,7 @@ public class Road {
 		x = w ? y++ : y--;
 		w = !z;
 		System.out.println((x+y)+" "+(w ? 5 : 10));
+		System.out.println(incheck.length);
 				
 		}
 }
