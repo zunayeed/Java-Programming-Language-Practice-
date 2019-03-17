@@ -22,8 +22,15 @@ public class SortPractice {
 		matrix[0][0] = "Don't think you are, know you are."; // m1
 		matrix[0][1] = "I'm trying to free your mind Neo"; // m2
 		// matrix[1][0] = "Is all around you "; // m3
-		matrix[1][1] = "Why oh why didn't I take the BLUE pill?"; // m4
+		// matrix[1][1] = "Why oh why didn't I take the BLUE pill?"; // m4
+		String[] os = new String[] { "Mac", "Linux", "Windows" };
+		Arrays.sort(os);
+		System.out.println(Arrays.binarySearch(os, "Mac"));
 		
+		String[] days = new String[] { "Sunday", "Monday", "Tuesday",
+				"Wednesday", "Thursday", "Friday", "Saturday" };
+				for (int i = 0; i < days.size(); i++)
+				System.out.println(days[i]);
 		
 	}
 
