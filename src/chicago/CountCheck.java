@@ -15,6 +15,16 @@ public class CountCheck {
 			int singer = 0;
 			while (singer > 0)
 			System.out.println(singer++);
+			
+			boolean balloonInflated = false;
+			System.out.println(!balloonInflated);
+			do {
+			if (!balloonInflated) {
+			balloonInflated = true;
+			System.out.print("inflate-");
+			}
+			} while (! balloonInflated);
+			System.out.println("done");
 	}
 
 }
