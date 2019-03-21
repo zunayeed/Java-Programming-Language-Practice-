@@ -11,6 +11,10 @@ public class CountCheck {
 			break;
 			} while (true);
 			System.out.println(count);
+			
+			int singer = 0;
+			while (singer > 0)
+			System.out.println(singer++);
 	}
 
 }
