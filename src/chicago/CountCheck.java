@@ -1,8 +1,11 @@
 package chicago;
 
+import java.util.*;
+
 public class CountCheck {
 	public static void main(String[] args) {
-		int count = 0;
+		 /* 
+		  * int count = 0;
 		do {
 			
 			do {
@@ -16,6 +19,7 @@ public class CountCheck {
 			while (singer > 0)
 			System.out.println(singer++);
 			
+			
 			boolean balloonInflated = false;
 			System.out.println(!balloonInflated);
 			do {
@@ -25,6 +29,21 @@ public class CountCheck {
 			}
 			} while (! balloonInflated);
 			System.out.println("done");
+			
+			String letters = "";
+			while (letters.length() != 10)
+			letters+="ab";
+			System.out.println(letters);
+			*/
+			int count = 10;
+			List<Character> chars = new ArrayList<>();
+			do {
+				chars.add('a');
+				for (Character x : chars) count -=1;
+			}while (count > 0);
+			System.out.println(chars.size());
+			}
 	}
+			
 
-}
+
