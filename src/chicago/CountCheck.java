@@ -34,7 +34,7 @@ public class CountCheck {
 			while (letters.length() != 10)
 			letters+="ab";
 			System.out.println(letters);
-			*/
+			
 			int count = 10;
 			List<Character> chars = new ArrayList<>();
 			do {
@@ -42,6 +42,13 @@ public class CountCheck {
 				for (Character x : chars) count -=1;
 			}while (count > 0);
 			System.out.println(chars.size());
+			*/
+		int k = 0;
+		for (int i = 10; i > 0; i--) {
+		while (i > 3) i -= 3;
+		k += 1;
+		}
+		System.out.println(k);
 			}
 	}
 			
