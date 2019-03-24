@@ -16,7 +16,8 @@ public class LambdaExceptionDemo {
 
 public static void main(String args[]) throws EmptyArrayException 
 { 
- double[] values  = { 1.0, 2.0, 3.0, 4.0 }; 
+	// double[] values  = {  }; 
+	 double[] values  = { 1.0, 2.0, 3.0, 4.0 }; 
 
  // This block lambda computes the average of an array of doubles. 
  DoubleNumericArrayFunc average = (n) ->  { 
