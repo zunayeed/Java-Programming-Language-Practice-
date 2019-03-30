@@ -1,7 +1,7 @@
 // Some simple math functions, with isFactor() removed. 
  
 package appfuncs.simplefuncs;
-import appsupport.supportfuncs.SupportFuncs; 
+import appsupport.supportfuncs.SupportFuncs; //import SupportFuncs class from appfuncs.simplefuncs package, appfuncs module
  
 public class SimpleMathFuncs { 
  
