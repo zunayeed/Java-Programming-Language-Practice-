@@ -1,6 +1,8 @@
-// Module definition for the functions module. 
+// Module definition for appfuncs. 
 module appfuncs { 
   // Exports the package appfuncs.simplefuncs. 
-  // exports packageName to moduleNames;
-  exports appfuncs.simplefuncs to appstart; 
+  exports appfuncs.simplefuncs; 
+ 
+  // Requires appsupport and makes it public 
+  requires transitive appsupport; 
 }
