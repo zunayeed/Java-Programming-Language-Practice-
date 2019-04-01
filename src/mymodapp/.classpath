@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="appsrc/appfuncs"/>
+	<classpathentry kind="src" path="appsrc/appstart"/>
+	<classpathentry kind="src" path="appsrc/appsupport"/>
+	<classpathentry kind="src" path="appsrc/userfuncs"/>
+	<classpathentry kind="output" path="appmodules/appfuncs"/>
+</classpath>
