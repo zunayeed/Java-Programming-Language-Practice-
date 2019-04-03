@@ -1,0 +1,14 @@
+package methodRef2StaticMethod;
+
+/*
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * */
+ 
