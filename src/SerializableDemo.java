@@ -1,3 +1,4 @@
+       // serialization and deserialization in Brief
 import java.io*; 
 class Dog implements  Serializable
 {
